@@ -7,6 +7,7 @@
   roles:
     - webserver
     - database
+    - sidekiq
 
   handlers: 
     - name: Restart puma
